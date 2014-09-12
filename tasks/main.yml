@@ -18,6 +18,4 @@
   template:
     src: s3cfg.j2
     dest: "{{ s3cmd_cfg_path }}"
-    owner: ubuntu
-    group: ubuntu
     mode: 644
