@@ -14,6 +14,7 @@
   command: sudo python setup.py install
   args:
     chdir: "{{ s3cmd_dest }}"
+    creates: "{{ s3cmd_dest }}"
 - name: Set config files a set location
   template:
     src: s3cfg.j2
