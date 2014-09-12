@@ -1,16 +1,21 @@
 ---
 # defaults file for s3cmd
 
+pkgs:
+  - python-setuptools  
+
 s3cmd_repo: "https://github.com/s3tools/s3cmd"
 s3cmd_dest: "/home/ubuntu/s3cmd"
 s3cmd_version: "v1.5.0-rc1"
 
 s3cmd_accounts:
   - {
+      s3cmd_cfg_path: "/home/ubuntu/.s3cfg"
       client_access_key: redacted
       client_secret_key: redacted
     }
   - {
+      s3cmd_cfg_path: "/home/ubuntu/client1"
       client_access_key: redacted
       client_secret_key: redacted
     }
