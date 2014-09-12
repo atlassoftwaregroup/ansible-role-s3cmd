@@ -15,9 +15,9 @@
   args:
     chdir: "{{ s3cmd_dest }}"
 - name: Set config files a set location
-  template: >
+  template:
     src: s3cfg.j2
-    dest: "{{ s3cfg_path }}"
+    dest: "{{ s3cmd_cfg_path }}"
     owner: ubuntu
     group: ubuntu
     mode: 644
