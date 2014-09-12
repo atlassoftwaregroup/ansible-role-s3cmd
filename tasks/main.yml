@@ -20,4 +20,4 @@
     dest:{{ s3cfg_path }}
     owner: ubuntu
     group: ubuntu
-    mode: 600
+    mode: 644
