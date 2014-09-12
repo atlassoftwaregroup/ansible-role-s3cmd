@@ -1,6 +1,8 @@
 Role Name
 =========
 
+[![Build Status](https://travis-ci.org/jnakatsui/ansible-role-s3cmd.svg?branch=master)](https://travis-ci.org/jnakatsui/ansible-role-s3cmd)
+
 Under development do not use
 
 A brief description of the role goes here.
