@@ -7,6 +7,7 @@
   with_items: pkgs
 - name: Get s3cmd pkg from github
   git:
+    accept_hostkey: "yes"
     repo: "{{ s3cmd_repo }}"
     dest: "{{ s3cmd_dest }}"
     version: "{{ s3cmd_version }}"
