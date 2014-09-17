@@ -1,5 +1,6 @@
 ---
-# defaults file for s3cmd
+sudo_user: ubuntu
+
 pkgs:
   - python-setuptools  
 

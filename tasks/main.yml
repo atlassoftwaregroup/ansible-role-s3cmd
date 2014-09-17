@@ -13,6 +13,7 @@
     version: "{{ s3cmd_version }}"
 - name: Run installation script
   command: sudo python setup.py install
+  sudo_user: {{ sudo_user }}
   args:
     chdir: "{{ s3cmd_dest }}"
     creates: "{{ s3cmd_dest }}"
