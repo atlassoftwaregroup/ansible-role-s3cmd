@@ -3,6 +3,7 @@ sudo_user: ubuntu
 
 pkgs:
   - python-setuptools  
+  - python-dateutil
 
 aws_access_key: redacted
 aws_secret_key: redacted

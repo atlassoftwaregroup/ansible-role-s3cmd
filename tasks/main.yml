@@ -16,7 +16,7 @@
   sudo_user: "{{ sudo_user }}"
   args:
     chdir: "{{ s3cmd_dest }}"
-    creates: "{{ s3cmd_dest }}"
+    creates: "/usr/local/bin/s3cmd"
 - name: Set config files a set location
   template:
     src: "s3cfg.j2"
