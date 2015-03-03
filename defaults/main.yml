@@ -1,7 +1,7 @@
 ---
 sudo_user: ubuntu
 
-pkgs:
+s3cmd_pkgs:
   - python-setuptools  
   - python-dateutil
 

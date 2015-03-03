@@ -4,7 +4,7 @@
   apt:
     name: "{{ item }}"
     state: present
-  with_items: pkgs
+  with_items: s3cmd_pkgs
 - name: Get s3cmd pkg from github
   git:
     accept_hostkey: "yes"
