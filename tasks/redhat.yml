@@ -1,0 +1,6 @@
+- name: Install list of packages
+  yum:
+    name: "{{ item }}"
+    state: installed
+    update_cache: yes
+  with_items: s3cmd_pkgs
