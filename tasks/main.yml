@@ -20,5 +20,5 @@
     src: "s3cfg.j2"
     dest: "{{ s3cmd_cfg_path }}"
     mode: 0644
-    owner: ubuntu
-    group: ubuntu
+    owner: {{ owner }}
+    group: {{ group }}
