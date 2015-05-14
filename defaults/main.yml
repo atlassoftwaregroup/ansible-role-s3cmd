@@ -1,5 +1,6 @@
 ---
 s3cmd_pkgs:
+  - git
   - python-setuptools  
   - python-dateutil
 
