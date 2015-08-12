@@ -2,7 +2,7 @@
 
 s3cmd
 =====
-Installs s3cmd
+Installs s3cmd. Does not create an s3cfg file because IAM roles should be used for access credentials.
 
 Requirements
 ------------
